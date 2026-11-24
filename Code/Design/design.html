@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TerraSat design page</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="26px" width="26px" fill="#000000"><path d="M6.4,19L5,17.6L10.6,12L5,6.4L6.4,5L12,10.6L17.6,5L19,6.4L13.4,12L19,17.6L17.6,19L12,13.4L6.4,19Z"/></svg></a></li>
+            <li><a href="../OurTeam/ourTeam.html">Our team</a></li>
+            <li><a href="../Design/design.html">Design</a></li>
+            <li><a href="../Software/software.html">Software</a></li>
+            <li><a href="../Outreach/outreach.html">Outreach</a></li>
+        </ul>
+        <ul>
+            <li><a href="../MainPage/index.html">TerraSat</a></li>
+            <li class="hideOnMobile"><a href="../OurTeam/ourTeam.html">Our team</a></li>
+            <li class="hideOnMobile"><a href="../Design/design.html">Design</a></li>
+            <li class="hideOnMobile"><a href="../Software/software.html">Software</a></li>
+            <li class="hideOnMobile"><a href="../Outreach/outreach.html">Outreach</a></li>
+            <li class="menuButton" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="26px" width="26px" fill="000000"><path d="M3,18V16H21v2H3Zm0-5V11H21v2H3ZM3,8V6H21V8H3Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <div>
+        <h1> Design </h1>
+    </div>
+    <div>
+        <h3>
+            <b>What is included in the mechanical design?</b> <br /><br />
+            The mechanical design of the can is very important, the can will experience lots of force in both the launch, and the landing. We must design the can to be able to withstand the levels of stress it experiences.
+            It must also fit all the components we need inside the can, this includes; electrical components, primary and secondary mission components, and the parachute. <br />
+            Finally, it must meet the required dimensions to fit the rockets, and be able to launch. We also must keep in mind the maximum mass of 400 grams.<br /><br />
+
+            <b>How is the mechanical design important to the secondary mission?</b> <br /><br />
+            To achieve our secondary mission, we must collect a soil sample to analyse. For this we are using an archimedes screw; when the motor spins, the screw causing soil to be displaced, travel up the screw and into the analyser. <br />
+            A possible problem with this idea is that it will not work if the can does not land upright, therefore we have designed parts of the can to aid with the landing so we do not fail our mission. <br />
+            To ensure our CanSat descends at the correct speed and to aid it in landing upright, we will use a parachute made out of 12 gores (sections) attached to our top cap with 12 shroud lines.
+             Other features of the parachute include metal rings around the inside of each hole where a shroud line is attached to. Overall, the most important purpose of our parachute is to reduce the amount of oscillations (sideways movement) during descent, to make our CanSat as stable as possible, to hopefully give it the highest chance of landing upright so our CanSat can collect samples to analyse
+             <br /><br />
+             <b>How does the electrical design fit into the secondary mission?</b> <br /><br />
+             We have selected our electrical components after hours of meticulous research to find components that fit into our strict mass and size constraints of our CanSat and these components will allow us to complete our secondary mission of soil sampling. Our electrical components feature a small sensor that will allow us to roughly determine the chemical composition of soil samples
+            (via measuring the wavelengths of light reflected off the sample) that we will collect using a miniature servo moto to drive an Archimedes screw into the ground. This will all be controlled remotely from our ground station by code created by our software team and run on our microcontroller, a Raspberry Pi Pico.
+            <br /><br />
+
+        </h3>
+    </div>
+    <footer>
+        Contact us: terrasat2027@gmail.com
+    </footer>
+</body>
+</html>
