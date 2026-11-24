@@ -31,12 +31,12 @@
     <div>
         <h3>
             <b>Why is software so important?</b> <br /><br />
-            There are many key pieces of software we must create for our mission. Every electrical component needs to be incorporated into the code, and multiple programmes have to be writen for multiple jobs. <br /><br />
+            There are many key pieces of software we must create for our mission. Every electrical component needs to be incorporated into the code, and multiple programs have to be writen for multiple jobs. <br /><br />
             <b>Data transmission:</b> <br /><br />
-            We are using a radio to transmit data from the can, to our ground station. The programme will allow comunication between a transmitter and reciever, so the data can be sent. It also makes the data readily accesible to be accesed.<br /><br />
+            We are using a radio to transmit data from the can to our ground station. The program will allow communication between a transmitter and reciever, so the data can be sent. It also makes the data readily accessible.<br /><br />
             <b>Collection of primary and secondary data:</b> <br /><br />
-            We are using a thermometer, and pressure sensor, the data from these is sent to the transmitter, then to the ground station.<br />
-            We also have a spectroscoper, which can give us a rough soil profile. We will be able to pick up traces of biological entities, organic carbon containing matter, iron based compounds, and soil moisture levels. The programme needs to decode all the data from this component into something we can read and analyse.
+            We are using a thermometer and pressure sensor; the data from these is sent to the transmitter, then to the ground station.<br />
+            We also have a spectroscope which can give us a rough soil profile. We will be able to pick up traces of biological entities, organic carbon-containing matter, iron-based compounds, and soil moisture levels. The program needs to decode all the data from this component into something we can read and analyse.
             <br /><br />
             <b>How does the code work?</b> <br /><br />
             The code has been split into separate Python files to better organise its functionality. This way, as the code is being done collaboratively, it is easier to see which parts of the software control which electrical components - and no accidental changes are made to already-functional files. We are also hosting the code on a private GitHub repository. Not only does this streamline the process of collaborating on the code, it also provides "version control" which means we can roll back any changes that are either not necessary or disrupt existing functionality. The code itself has a main script for the radio which imports the measurements from the sensor components' scripts as "modules". The radio is then able to relay the data gathered from the sensors to our ground station which we will hopefully be able to organise into and display as graphs.
